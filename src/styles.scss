@@ -1,1 +1,133 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*C O L O R S*/
+$blue-main: #002e5a;
+$blue: #006ba1;
+$gray: #f7f7f7;
+$yellow: #fde21c;
+$grey: #f7f9fb;
+
+/* H E I G H T*/
+.h-100 {
+    height: 100vh;
+}
+
+.w {
+    &-75 {
+        width: 75%;
+    }
+
+    &-50 {
+        width: 50%;
+    }
+}
+
+/* B A C K G R O U N D*/
+.bg {
+    &-gray {
+        background-color: $gray;
+    }
+    &-grey{
+        background-color: $grey;
+    }
+    &-yellow{
+        background-color: $yellow;
+    }
+}
+
+/* L E T T E R S*/
+.h {
+    &1 {
+        font-size: 35px;
+    }
+
+    &2 {
+        font-size: 30px;
+    }
+
+    &3 {
+        font-size: 25px;
+    }
+
+    &4 {
+        font-size: 20px;
+    }
+}
+
+.font {
+    &-white {
+        color: white;
+    }
+
+    &-gray {
+        color: $gray;
+    }
+
+    &-blueMain {
+        color: $blue-main;
+    }
+
+    &-yellow {
+        color: $yellow;
+    }
+}
+
+.p {
+    &-18 {
+        font-size: 18px;
+    }
+}
+
+.text {
+    &-right {
+        text-align: right;
+    }
+}
+
+/*  F O R M S   */
+input,
+button {
+    outline: none !important;
+    border: none;
+    padding: 20px;
+    width: 100%;
+}
+
+
+/*  E N L A C E S   */
+.link {
+    @extend .font-blueMain;
+    font-weight: 700;
+
+    &:hover {
+        @extend .font-yellow;
+    }
+}
+
+.btn{
+    @extend .bg-yellow;
+    @extend .font-blueMain;
+    font-weight: 600;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 2px solid yellow;
+    transition: .3s!important;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+        box-shadow: 0 8px 25px rgba(0,0,0,.15);
+        transform: translate3d(0,-3px,0);
+    }
+}

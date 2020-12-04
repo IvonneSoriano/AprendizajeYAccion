@@ -1,0 +1,39 @@
+.nav{
+    padding: 20px 0;
+    width: 100%;
+    transition: all .25s ease-in-out;
+    position: fixed;
+    background-color: white;
+    z-index: 35986412000;
+    nav{
+        li{
+            margin-right: 20px;
+            list-style: none;
+            a{
+                text-decoration: none;
+                transition: opacity 0.05s;
+            }
+            &:last-of-type{
+                margin-right: 0;
+            }
+            &:hover{
+                a{
+                    &:hover{
+                        opacity: 1!important;
+                    }
+                }
+            }
+        }
+        &:hover{
+            li{
+               a{
+                   opacity: 0.3;
+               }
+            }
+        }
+    }
+    &.sticky{
+        margin-top: -1px;
+        box-shadow: 0 2px 20px rgba(0,0,0,0.26);
+    }
+}

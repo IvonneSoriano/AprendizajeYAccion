@@ -1,0 +1,24 @@
+.main-slider{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    .carousel{
+        max-width: 100%;
+        overflow: hidden;
+        border: none;
+        .slide{
+            .slide-child{
+                height: 100vh;
+                max-width: 100%;
+                position: relative;
+                background-size: cover;
+                .text-box{
+                    position: absolute;
+                    top: 50%;
+                    left: 10%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+    }
+}

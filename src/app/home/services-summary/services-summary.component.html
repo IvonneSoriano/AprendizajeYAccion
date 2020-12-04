@@ -1,0 +1,29 @@
+<section class="services-summary py-5 ">
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let item of data" class="col-12 col-md-4 service-summary">
+                <div class="child">
+                    <span class="">
+                        <img src="assets/img/{{item.icon}}" alt=""></span>
+                    <div class="text">
+                        <h3 class="h3 m-0 mb-2 font-blueMain">{{item.title}}</h3>
+                        <p>{{item.p}}</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-5 align-items-center">
+            <div class="col-4">
+                <h2 class="h2 m-0 font-blueMain">Get expert advice and start saving!</h2>
+            </div>
+            <div class="col-8">
+                <p class="p-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quibusdam sapiente tempore
+                    maiores, magnam
+                    possimus porro. Necessitatibus nisi excepturi soluta incidunt mollitia aliquid magnam fugit commodi!
+                    Adipisci vitae maxime rem? </p>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,29 @@
+<section class=" main-slider h-100">
+<!-- You can now use your library component in app.component.html -->
+<!-- <ngx-slick-carousel class="carousel" 
+#slickModal="slick-carousel" 
+[config]="slideConfig" 
+(init)="slickInit($event)"
+(breakpoint)="breakpoint($event)"
+(afterChange)="afterChange($event)"
+(beforeChange)="beforeChange($event)">
+<div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <div class="slide-child">
+        <img src="assets/img/{{slide }}" alt="" width="100%">
+    </div>
+
+</div>
+</ngx-slick-carousel> -->
+<ngx-slick-carousel class="carousel h-100" [config]="slideConfig">
+    <div ngxSlickItem *ngFor="let slide of slides; let i = index" class="slide">
+        <div class="slide-child" style="background-image: url('assets/img/{{slide }} ')">
+            <div class="text-box">
+                <h1 class="m-0 h1 font-white">{{main.info[i].title}}</h1>
+                <p class="font-gray">{{main.info[i].p}}</p>
+            </div>
+        </div>
+    </div>
+</ngx-slick-carousel>
+
+
+</section>
