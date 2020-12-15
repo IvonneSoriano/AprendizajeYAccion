@@ -24,7 +24,7 @@ export class MainSliderComponent implements OnInit {
     "slidesToScroll": 1,
     "dots": true,
     "arrows":false,
-    "autoplay": false,
+    "autoplay": true,
     "centerPadding": "0px"
   };
 

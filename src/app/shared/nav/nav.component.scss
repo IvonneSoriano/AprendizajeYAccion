@@ -1,10 +1,20 @@
 .nav{
-    padding: 20px 0;
+    padding: 12px 0;
     width: 100%;
     transition: all .25s ease-in-out;
     position: fixed;
     background-color: white;
     z-index: 35986412000;
+    .logo{
+        img{
+            height: 55px;
+            // &.logo{
+            //     &2{
+            //         display: none;
+            //     }
+            // }
+        }
+    }
     .toggle{
         display: none;
     }
@@ -42,16 +52,17 @@
     }
     @media(max-width: 768px){
         .logo{
-            flex: 0 0 50%;
+            flex: 0 0 70%;
         }
         .toggle{
-            flex: 0 0 50%;
+            flex: 0 0 30%;
             display: block;
             text-align: right;
             button{
                 width:20px;
                 height: 20px;
                 position: relative;
+                padding: 15px;
                 background-color: transparent;
                 outline: none!important;
                 span{
@@ -76,13 +87,13 @@
                 &.active{
                     span{
                         &.s1{
-                            transform: rotate(-45deg) translate(-10px, 10px);
+                            transform: rotate(-45deg) translate(-5px, 5px);
                         }
                         &.s2{
                             opacity: 0;
                         }
                         &.s3{
-                            transform: rotate(45deg) translate(-6px, -8px);
+                            transform: rotate(45deg) translate(-8px, -8px);
                         }
                     }
                 }
@@ -98,4 +109,66 @@
             }
         }
     }
+    @media(max-width: 350px){
+        .logo{
+            img{
+                height: 45px;
+            }
+        }
+        .toggle{
+            flex: 0 0 30%;
+            display: block;
+            text-align: right;
+            button{
+                
+                span{
+                    height: 5px;
+                    width:100%;
+                    position: absolute;
+                    border-radius: 4px;
+                    left: 0;
+                    transition: all 0.3s;
+                    &.s1{
+                        top: 10%;
+                    }
+                    &.s2{
+                        top: 40%;
+                        opacity: 1;
+                    }
+                    &.s3{
+                        top: 70%;
+                    }
+                 
+                }
+                &.active{
+                    span{
+                        &.s1{
+                            transform: rotate(-45deg) translate(-5px, 5px);
+                        }
+                        &.s2{
+                            opacity: 0;
+                        }
+                        &.s3{
+                            transform: rotate(45deg) translate(-8px, -8px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // @media(max-width: 600px){
+    //     .logo{
+    //         img{
+    //             &.logo{
+    //                 &1{
+    //                     display: none;
+    //                 }
+    //                 &2{
+    //                     display: block;
+    //                     height: 55px;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }

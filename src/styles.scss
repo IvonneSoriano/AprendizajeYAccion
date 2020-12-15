@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
 
 * {
     box-sizing: border-box !important;
@@ -17,6 +19,10 @@ $blue: #006ba1;
 $gray: #f7f7f7;
 $yellow: #53CADA;
 $grey: #f7f9fb;
+
+.cris {
+    font-family: 'Crimson Text', serif;
+}
 
 /* H E I G H T*/
 .h-100 {
@@ -38,10 +44,12 @@ $grey: #f7f9fb;
     &-gray {
         background-color: $gray;
     }
-    &-grey{
+
+    &-grey {
         background-color: $grey;
     }
-    &-yellow{
+
+    &-yellow {
         background-color: $yellow;
     }
 }
@@ -63,19 +71,20 @@ $grey: #f7f9fb;
     &4 {
         font-size: 20px;
     }
-    @media(max-width: 992px){
+
+    @media(max-width: 992px) {
         &1 {
             font-size: 30px;
         }
-    
+
         &2 {
             font-size: 25px;
         }
-    
+
         &3 {
             font-size: 20px;
         }
-    
+
         &4 {
             font-size: 18px;
         }
@@ -98,7 +107,8 @@ $grey: #f7f9fb;
     &-yellow {
         color: $yellow;
     }
-    &-bold{
+
+    &-bold {
         font-weight: bold;
     }
 }
@@ -115,7 +125,7 @@ $grey: #f7f9fb;
     }
 }
 
-.hr{
+.hr {
     border: none;
     height: 3px;
     width: 5%;
@@ -142,7 +152,7 @@ button {
     }
 }
 
-.btn{
+.btn {
     @extend .bg-yellow;
     @extend .font-white;
     font-weight: 600;
@@ -150,12 +160,13 @@ button {
     box-sizing: border-box;
     padding: 15px;
     border: 2px solid #53CADA;
-    transition: .3s!important;
+    transition: .3s !important;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         @extend .font-blueMain;
         background-color: white;
-        box-shadow: 0 8px 25px rgba(0,0,0,.15);
-        transform: translate3d(0,-3px,0);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
+        transform: translate3d(0, -3px, 0);
     }
 }
