@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "starto": "ng serve -o --host=192.168.1.18"
+    "starto": "ng serve -o --host=192.168.1.18",
+    "gpages": "ng build --prod --base-href '/AprendizajeYAccion/' --output-path=dist",
+    "upload": "npx angular-cli-ghpages — dir=dist/"
   },
   "private": true,
   "dependencies": {
