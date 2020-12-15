@@ -5,4 +5,9 @@ footer{
         font-size: 10px;
         color: white;
     }
+    @media(max-width: 768px){
+        p{
+            text-align: center;
+        }
+    }
 }

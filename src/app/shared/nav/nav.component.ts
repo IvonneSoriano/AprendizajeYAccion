@@ -21,6 +21,10 @@ export class NavComponent implements OnInit {
             $('.nav').removeClass('sticky');
         }
     });
+    $(".toggle").click(function(){
+      $('nav').slideToggle();
+      $('.toggle-btn').toggleClass("active");
+    });
  });
   }
 

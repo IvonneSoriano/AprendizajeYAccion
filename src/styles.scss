@@ -15,7 +15,7 @@ body {
 $blue-main: #002e5a;
 $blue: #006ba1;
 $gray: #f7f7f7;
-$yellow: #fde21c;
+$yellow: #53CADA;
 $grey: #f7f9fb;
 
 /* H E I G H T*/
@@ -63,6 +63,23 @@ $grey: #f7f9fb;
     &4 {
         font-size: 20px;
     }
+    @media(max-width: 992px){
+        &1 {
+            font-size: 30px;
+        }
+    
+        &2 {
+            font-size: 25px;
+        }
+    
+        &3 {
+            font-size: 20px;
+        }
+    
+        &4 {
+            font-size: 18px;
+        }
+    }
 }
 
 .font {
@@ -81,6 +98,9 @@ $grey: #f7f9fb;
     &-yellow {
         color: $yellow;
     }
+    &-bold{
+        font-weight: bold;
+    }
 }
 
 .p {
@@ -93,6 +113,13 @@ $grey: #f7f9fb;
     &-right {
         text-align: right;
     }
+}
+
+.hr{
+    border: none;
+    height: 3px;
+    width: 5%;
+    @extend .bg-yellow;
 }
 
 /*  F O R M S   */
@@ -117,15 +144,16 @@ button {
 
 .btn{
     @extend .bg-yellow;
-    @extend .font-blueMain;
+    @extend .font-white;
     font-weight: 600;
     border-radius: 4px;
     box-sizing: border-box;
     padding: 15px;
-    border: 2px solid yellow;
+    border: 2px solid #53CADA;
     transition: .3s!important;
     cursor: pointer;
     &:hover{
+        @extend .font-blueMain;
         background-color: white;
         box-shadow: 0 8px 25px rgba(0,0,0,.15);
         transform: translate3d(0,-3px,0);

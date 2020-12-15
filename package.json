@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "starto": "ng serve -o"
+    "starto": "ng serve -o --host=192.168.1.18"
   },
   "private": true,
   "dependencies": {
