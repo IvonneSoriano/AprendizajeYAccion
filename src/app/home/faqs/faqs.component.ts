@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {faqs} from '../../data/home';
+import {faqs} from '../../../assets/home';
 declare var $: any;
 
 

@@ -16,7 +16,7 @@
 </ngx-slick-carousel> -->
 <ngx-slick-carousel class="carousel h-100" [config]="slideConfig">
     <div ngxSlickItem *ngFor="let slide of slides; let i = index" class="slide">
-        <div class="slide-child" style="background-image: url('assets/img/{{slide }} ')">
+        <div class="slide-child" style="background-image: linear-gradient(180deg, rgba(0, 107, 161, 0.05) 0%, rgba(0, 46, 90, 0.7) 100%),url('assets/img/{{slide }} ')">
             <div class="text-box">
                 <h1 class="m-0 h1 font-white">{{main.info[i].title}}</h1>
                 <p class="font-gray">{{main.info[i].p}}</p>

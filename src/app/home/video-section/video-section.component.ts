@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { videoSection } from '../../data/home';
+import { videoSection } from '../../../assets/home';
+import $ from 'jquery';
+
 @Component({
   selector: 'app-video-section',
   templateUrl: './video-section.component.html',
@@ -13,6 +15,10 @@ export class VideoSectionComponent implements OnInit {
    }
 
   ngOnInit(): void {
+    $(document).ready(function(){
+      
+
+    })
   }
 
 }

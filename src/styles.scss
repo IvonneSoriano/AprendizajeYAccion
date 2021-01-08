@@ -20,6 +20,18 @@ $gray: #f7f7f7;
 $yellow: #53CADA;
 $grey: #f7f9fb;
 
+.helping{
+    font-weight: 700!important;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
 .cris {
     font-family: 'Crimson Text', serif;
 }
@@ -105,7 +117,7 @@ $grey: #f7f9fb;
     }
 
     &-yellow {
-        color: $yellow;
+        color: $yellow!important;
     }
 
     &-bold {

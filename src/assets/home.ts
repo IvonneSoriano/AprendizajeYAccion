@@ -1,34 +1,34 @@
 export const mainSlider = {
     images: ["woman-explain.jpg", "students.jpg","hands.jpg"],
     info: [{
-        title: "Lorem Ipsum Dolorum",
-        p: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sequi deserunt sapiente aliquid sunt ipsam."
+        title: "La formación de personal es nuestra actividad principal.",
+        p: "La formación es una pieza fundamental del éxito de cualquier organización. La mejora de las habilidades y los conocimientos en todos los niveles aumenta la competencia y la productividad."
     },
     {
-        title: "Lorem Ipsum Dolorum 2",
-        p: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sequi deserunt sapiente aliquid sunt ipsam. 2"
+        title: "La formación de personal es nuestra actividad principal.",
+        p: "La formación es una pieza fundamental del éxito de cualquier organización. La mejora de las habilidades y los conocimientos en todos los niveles aumenta la competencia y la productividad."
     },
     {
-        title: "Lorem Ipsum Dolorum 3",
-        p: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sequi deserunt sapiente aliquid sunt ipsam. 3"
+        title: "La formación de personal es nuestra actividad principal.",
+        p: "La formación es una pieza fundamental del éxito de cualquier organización. La mejora de las habilidades y los conocimientos en todos los niveles aumenta la competencia y la productividad."
     },
 ]
 };
 
 export const servicesSummary = {
     info: [{
-        title: "Manages expanses",
-        p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia velit ut maxime molestiae nihil, veritatis dolore assumenda quae et inventore ad distinctio tempore recusandae atque autem, debitis fuga accusantium!",
+        title: "Modelar el diseño",
+        p: "Modelar el diseño, la facilitación y la gestión del aprendizaje de vanguardia a través de talleres, programas de certificación, capacitaciones en línea, consultoría de desempeño, coaching.",
         icon: "video-tutorial.svg"
     },
     {
-        title: "Manages expanses 2",
-        p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia velit ut maxime molestiae nihil, veritatis dolore assumenda quae et inventore ad distinctio tempore recusandae atque autem, debitis fuga accusantium!2",
+        title: "Proporcionar herramientas",
+        p: "Proporcionar herramientas prácticas y útiles para hacer más fácil y beneficioso el trabajo del profesional para la organización.",
         icon: "video-tutorial.svg"
     },
     {
-        title: "Manages expanses 3",
-        p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia velit ut maxime molestiae nihil, veritatis dolore assumenda quae et inventore ad distinctio tempore recusandae atque autem, debitis fuga accusantium! 3",
+        title: "Compartir nuestra experiencia",
+        p: "Compartir nuestra experiencia y pasión por el aprendizaje de adultos, en formación de sus habilidades inspirando a otros a hacer lo mismo.",
         icon: "video-tutorial.svg"
     },
 ]
@@ -36,7 +36,7 @@ export const servicesSummary = {
 
 export const videoSection ={
     info: {
-        title: "La manera más inteligente de hacer las cosas",
+        title: "Una amplia gama de servicios",
         p: "Suspendisse laoreet vehicula est, ac consectetur nulla venenatis sed. Donec egestas molestie ligula, sit amet faucibus elit ultrices vel. Donec porta at nibh et ultrices. Nam aliquet libero ut dignissim efficitur. Morbi sit amet suscipit justo. Etiam lacinia vestibulum turpis, ut tempor erat accumsan laoreet."
     },
     image: {

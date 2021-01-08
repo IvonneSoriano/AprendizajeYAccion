@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { mainSlider } from '../../data/home';
+import { mainSlider } from '../../../assets/home';
 
 @Component({
   selector: 'app-main-slider',

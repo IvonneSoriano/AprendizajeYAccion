@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { servicesSummary } from '../../data/home';
+import { servicesSummary } from '../../../assets/home';
 
 @Component({
   selector: 'app-services-summary',
