@@ -1,3 +1,4 @@
+@import '../../../styles.scss';
 .video-section{
     background-image: url('../../../assets/img/banner.jpg');
     .img{
@@ -6,13 +7,15 @@
         }
     }
     .info{
-        background-color: rgba($color: #fff, $alpha: 0.4);
+        background-color: rgba($color: #fff, $alpha: 0.45);
         border-radius: 8px;
         padding: 40px;
-        width: 80%;
+        // width: 80%;
         margin: auto;
         .tab{
             list-style: none;
+            background-color: $yellow;
+            padding: 20px;
         }
     }
 }

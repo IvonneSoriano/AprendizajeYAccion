@@ -39,10 +39,11 @@ export const videoSection ={
         title: "Una amplia gama de servicios",
         p: "Suspendisse laoreet vehicula est, ac consectetur nulla venenatis sed. Donec egestas molestie ligula, sit amet faucibus elit ultrices vel. Donec porta at nibh et ultrices. Nam aliquet libero ut dignissim efficitur. Morbi sit amet suscipit justo. Etiam lacinia vestibulum turpis, ut tempor erat accumsan laoreet."
     },
-    image: {
-        name: "profesional.jpg",
-        alt: "Imagen de profesional"
-    }
+    list: [
+        {
+            title: "Capacitaciones en habilidades blandas"
+        }
+    ]
 }
 
 
