@@ -52,15 +52,15 @@ export const faqs ={
         p: "Respuestas a preguntas para aclarar dudas.",
         questions: [
             {
-                q: "¿Cómo funciona?",
-                a: "Nullam quis sapien at odio aliquam elementum. Nulla in nunc id turpis sollicitudin tincidunt. Morbi semper ipsum quis efficitur viverra. Mauris vitae consequat turpis, quis mollis ex"
+                q: "¿Cómo son nuestros talleres?",
+                a: "Cada uno de nuestros talleres, cubre las habilidades que necesita en el momento de su desarrollo profesional. No recibirá contenido que no necesita ahora, o tal vez nunca."
             },
             {
-                q: "¿Cómo funciona?",
-                a: "Nullam quis sapien at odio aliquam elementum. Nulla in nunc id turpis sollicitudin tincidunt. Morbi semper ipsum quis efficitur viverra. Mauris vitae consequat turpis, quis mollis ex"
+                q: "¿Cuál es la duración de nuestros talleres?",
+                a: "Ofrecemos opciones de 1/2 día, un día, dos días y tres días en su sitio para hasta 16 participantes por sesión. Creemos que es una manera que permite trabajar en equipo para aumentar la efectividad de un programa de capacitación, así como para intercambiar ideas y enfoques dentro de la organización."
             },
             {
-                q: "¿Cómo funciona?",
+                q: "¿Cuáles son las formas de pago?",
                 a: "Nullam quis sapien at odio aliquam elementum. Nulla in nunc id turpis sollicitudin tincidunt. Morbi semper ipsum quis efficitur viverra. Mauris vitae consequat turpis, quis mollis ex"
             },
             {
